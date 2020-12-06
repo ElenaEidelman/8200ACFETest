@@ -1,0 +1,23 @@
+{
+  "name": "first-test",
+  "version": "1.0.0",
+  "description": "Json path visualizer 8200AC test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "author": "Elena Eidelman <marlen8088@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "finalhandler": "^1.1.2",
+    "jsonpath": "^1.0.2",
+    "nodemon": "^2.0.6",
+    "serve-static": "^1.14.1"
+  }
+}

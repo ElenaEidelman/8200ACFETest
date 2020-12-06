@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Home Page</title>
+    <script type='text/javascript' src='filesJS/createJsonObj.js'></script>
+    <script type='text/javascript' src='filesJS/events.js'></script>
+</head>
+<body>
+    <div class="wrapPage">
+        <div class="wrapTitle">
+            <h1>Search person by Job Title (Web Developer)</h1>
+            <h5>(ex. Front End Developer, Senior Web Administrator, Web Developer, Webmaster ... )</h5>
+        </div>
+        <div class="wrapInput">
+            <input type="text" 
+                   placeholder="Please enter job title... " 
+                   name="vacationsSearch"
+                   onkeyup = 'filterPersons(this.value)'
+                   onkeydown = 'filterPersons(this.value)'
+                   onkeypress = 'filterPersons(this.value)'/>
+        </div>
+        <div id="personList">
+            <table></table>
+        </div>
+    </div>
+</body>
+</html>
