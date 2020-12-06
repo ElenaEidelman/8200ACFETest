@@ -25,7 +25,7 @@ function filterPersons(data){
                     thElement.append(key);
                     trElementHeader.append(thElement);
     
-                    tdElement = document.createEleme
+                    tdElement = document.createElement('td');
                     tdElement.append(searchResult[key]);
                     trElement.append(tdElement);
                 }
